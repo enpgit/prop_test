@@ -9,5 +9,3 @@ eureka:
       defaultZone: http://localhost:8761/eureka
   instance:
     instance-id: ${spring.application.name}:${random.value}
-
-testWar=100
